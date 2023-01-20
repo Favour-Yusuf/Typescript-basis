@@ -1,0 +1,18 @@
+{
+  "name": "type_class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "algorithm.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon nodec.js",
+    "start": "ts-node-dev --respawn --transpile-only ./algorithm.ts"
+  },
+  "keywords": [],
+  "author": "Favour",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.23",
+    "prompt-sync": "^4.2.0"
+  }
+}
